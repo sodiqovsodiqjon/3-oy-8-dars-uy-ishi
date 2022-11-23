@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(213, 214, 216);
+}
+
+ul,ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.item{
+    text-align: center;
+    /* margin-top: 100px; */
+    /* margin-left: 400px; */
+}
+
+.inp__write{
+    /* width: 100px; */
+    border: 2px solid;
+    border-radius: 10px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    /* margin-left: 360px;   */
+}
+
+.text__distance,.inp__write,.inp__text{
+    margin: 0 30px;
+}
+
+.list__item{
+    border: 2px solid ;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(178, 246, 223);
+
+}
+
+.list__item:hover{
+    box-shadow: 5px 3px 3px rgb(20, 20, 20);
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    margin-left: 20px;
+    
+ 
+}
+.inp__text{
+
+    background-color: rgb(221, 216, 216);
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+
+input[type=text]:focus {
+    background-color: lightblue;
+  }
+
+
+
+.inp__text:hover{
+    
+     text-align:center;
+    
+    background-size: 300% 100%;
+    background-color: beige;
+
+
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out; 
+
+	display: inline-block; 
+}
+
+.airplan{
+    margin-top:5px;
+}
